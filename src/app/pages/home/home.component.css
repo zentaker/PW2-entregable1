@@ -34,10 +34,11 @@
 
 }
 .contenido h4 {
+    position: relative;
     font-size: 40px;
     font-weight: bold;
     color: white;
-    margin-left: 380px;
+    left: 20px;
 
 
 }
