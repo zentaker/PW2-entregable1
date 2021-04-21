@@ -1,0 +1,43 @@
+
+.titulo {
+    position: absolute;
+    top: 220px;
+    
+}
+.contenido{
+    margin-left: 200px;
+    font-weight: bold;
+    color: white;
+    
+}
+.contenido h1 {
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: #d8252f;
+    padding: 10px 20px 10px 20px;
+    margin-left: 140px;
+
+}
+.contenido h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-left: 70px;
+
+}
+.contenido h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+
+}
+.contenido h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 380px;
+
+
+}
