@@ -57,3 +57,8 @@
 
 
   }
+  .nav li .active {
+    background-color: #d8252f;
+    color: white;
+
+  }
