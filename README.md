@@ -4,6 +4,19 @@ Web de una pizzeria en angular
 para las pizzas
 pizza.component.ts > llama a un servicio de un json para imprimir las pizzas
 
+Para las categorias un sub arreglo
+    {
+        "nombre": "Bismarck",
+        "precio": "s/45",
+        "descripcion": "Pizza para los niños pequeños que les guste las verduras",
+        categoria: {
+        "1": "Queso",
+        "2": "Para Niños",
+        "3": "Light",       
+        },
+        "img": "assets/pizza1.jpg"
+    },
+
 
 
 webs de referencia
