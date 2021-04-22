@@ -5,15 +5,14 @@
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="8000">
                 <img src="../../../assets/banner.jpg" class=" img d-block w-100" alt="...">
 
             </div>
-            <div class="carousel-item" data-bs-interval="10000">
+            <div class="carousel-item" data-bs-interval="8000">
                 <img src="../../../assets/banner2.jpg" class=" img d-block w-100" alt="...">
 
             </div>
@@ -44,19 +43,26 @@
     </div>
 
     <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pizzas">
+            <div class="col" *ngFor="let pizza of pizzas">
+                <div class="card">
+                    <img [src]="pizza.img" class="card-img-top" [alt]="pizza.nombre">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ pizza.nombre }}</h5>
+                        <p class="card-text">{{ pizza.descripcion}}.</p>
+                        <h2>{{ pizza.precio }}</h2>
+                        <span class="badge bg-primary">{{pizza.categoria1}}</span>
+                        <span class="badge bg-primary">{{ pizza.categoria2 }}</span>
+                        <span class="badge bg-primary">{{ pizza.categoria3 }}</span>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        </div>
     
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+<app-footer></app-footer>
