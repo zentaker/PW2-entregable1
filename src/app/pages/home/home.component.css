@@ -77,7 +77,7 @@
       margin-top: 20px;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
       .pizza h1 {
           text-align: center;
           margin-top: 70px;
