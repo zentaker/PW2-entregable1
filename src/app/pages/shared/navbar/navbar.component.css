@@ -63,3 +63,22 @@
     color: white;
 
   }
+
+  @media (max-width: 1320px) {
+    .logo img {
+        width: 150px;
+        padding: 6px 30px 6px 30px;
+       
+    }
+    .logo {
+        background-color: #d8252f ;
+        margin-right: 900px;
+    }
+    .nav li a {
+        background-color: white;
+        padding: 10px 10px 10px 10px;
+        color:black;
+    }
+
+
+  }
