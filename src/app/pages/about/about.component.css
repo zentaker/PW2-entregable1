@@ -111,13 +111,3 @@
 }
 
 }
-@media (min-width: 400px) { 
-    .section{
-        margin-top: -200px;
-    }
-    .header {
-        position: relative;
-        top: -200px;
-    }
-
-}
