@@ -39,8 +39,43 @@
     text-align: center;
 }
 @media (min-width: 700px) { 
+    .container h3 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1;
+    font-size: 39px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+        
+    }
+    .cont1 h1 {
+    
+        font-family: 'Oswald', sans-serif;
+        font-size: 60px;
+        margin-top: 6px;
+        margin-left: 10px;
+        color: white;
+        font-weight: 400;
+        
+    }
+    .title {
+        background-color:   #d8252f;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin-left: 100px;
+        margin-right: 700px;
+        
+     
+        
+    
+    }
+    .section{
+        margin-top: -200px;
+    }
     .header {
-        height: 400px;
+        position: relative;
+        top: -200px;
     }
 
 
@@ -48,7 +83,9 @@
         background-color:   #d8252f;
         display: flex;
         justify-content: center;
-        padding: 15px;
+        position: relative;
+        top: -60px;
+       
 
 }
 
