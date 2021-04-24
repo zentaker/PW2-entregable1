@@ -37,8 +37,15 @@
 }
 .container p {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 @media (min-width: 700px) { 
+    .container p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #444;
+
+    }
     .container h3 {
     font-weight: 400;
     color: #000;
@@ -46,6 +53,7 @@
     font-size: 39px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    font-family: 'Merriweather', serif;
         
     }
     .cont1 h1 {
@@ -65,6 +73,8 @@
         padding: 30px;
         margin-left: 150px;
         margin-right: 1050px;
+        
+    border-right: 30px solid #b11f27;
         
      
         
