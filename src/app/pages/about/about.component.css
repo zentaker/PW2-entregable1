@@ -111,7 +111,7 @@
 }
 
 }
-@media (max-width: 1320px) {
+@media (min-width: 400px) { 
     .section{
         margin-top: -200px;
     }
@@ -119,6 +119,5 @@
         position: relative;
         top: -200px;
     }
-
 
 }
