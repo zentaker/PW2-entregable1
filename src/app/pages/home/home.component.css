@@ -10,6 +10,15 @@
     color: white;
     
 }
+.pizza h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #d8252f;
+    
+}
+
 .contenido h1 {
     font-size: 120px;
     font-weight: bold;
@@ -17,6 +26,8 @@
     background-color: #d8252f;
     padding: 10px 20px 10px 20px;
     margin-left: 140px;
+    text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+    font-family: 'Oswald', sans-serif;
 
 }
 .contenido h2 {
@@ -24,12 +35,16 @@
     font-weight: bold;
     color: white;
     margin-left: 70px;
+    text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+    font-family: 'Oswald', sans-serif;
 
 }
 .contenido h3 {
     font-size: 40px;
     font-weight: bold;
     color: white;
+    text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+    font-family: 'Oswald', sans-serif;
 
 
 }
@@ -39,18 +54,100 @@
     font-weight: bold;
     color: white;
     left: 356px;
+    text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+    font-family: 'Oswald', sans-serif;
 
 
 }
 .img {
  
     animation: crescendo 20.5s infinite  ease-in;
+    width: 100%;
+   
+      
+
 }
+
 @keyframes crescendo {
     0%   {transform: scale(1.0);}
     100% {transform: scale(1.4);}
   }
 
   .pizzas {
-      margin-top: 100px;
+      margin-top: 20px;
+  }
+
+  @media (max-width: 375px) {
+      .pizza h1 {
+          text-align: center;
+          margin-top: 70px;
+          font-family: 'Oswald', sans-serif;
+          color: #d8252f;
+          
+      }
+
+      
+.titulo {
+    position: absolute;
+    top: 290px;
+    
+}
+    .img {
+        position: relative;
+        height: 700px;
+        left: -317px;
+        width: auto;
+        
+        
+    }
+
+    .contenido{
+        margin-left: 0px;
+        font-weight: bold;
+        color: white;
+        
+    }
+    .contenido h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        background-color: #d8252f;
+        padding: 10px 20px 10px 20px;
+        margin-left: 90px;
+        text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .contenido h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-left: 70px;
+        text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .contenido h3 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-left: 30px;
+        text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+        font-family: 'Oswald', sans-serif;
+    
+    
+    }
+    .contenido h4 {
+        position: relative;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        left: 130px;
+        text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
+        font-family: 'Oswald', sans-serif;
+    
+    
+    }
+
+
   }

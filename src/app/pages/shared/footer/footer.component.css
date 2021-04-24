@@ -3,13 +3,52 @@
     margin: 0 auto;
     height: 400px;
     margin-top: 100px;
+    padding-top: 17px;
     align-items: center;
 }
 
 .footer img {
     width: 200px;
+    margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.descripcion p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.index li a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media (max-width: 375px) {
+
+    .footer img {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .descripcion p {
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .index li a {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
 }
