@@ -43,6 +43,13 @@
     font-family: 'Oswald', sans-serif;
 }
 @media (min-width: 700px) { 
+
+    .container img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
     .container p {
         margin-bottom: 10px;
         font-size: 30px;
@@ -69,13 +76,14 @@
         font-weight: 400;
         
     }
-    .title {
+    div .title {
         background-color:   #d8252f;
         display: flex;
-        justify-content: center;
+        margin-left: 130px;
         padding: 30px;
-        margin-left: 150px;
-        margin-right: 1050px;
+        width: 460px;
+      
+     
         
     border-right: 30px solid #b11f27;
         

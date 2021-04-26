@@ -44,17 +44,25 @@
 
     <div class="container pizza">
         <h1>Nuestras Pizzas</h1>
+        <div class="categorias">
+            <ul>
+                <li><a (click)="catGo('Queso')">Queso</a></li>
+                <li><a (click)="catGo('Para Niños')">Niños</a></li>
+                <li><a (click)="catGo('Picante')">Picante</a></li>
+                <li><a (click)="catGo('Vegetariano')">Vegetariano</a></li>
+                <li><a (click)="catGo('Light')">Light</a></li>
+        
+            </ul>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4 pizzas">
-            <div class="col" *ngFor="let pizza of pizzas">
+            <div class="col" *ngFor="let filtros of filtro">
                 <div class="card">
-                    <img [src]="pizza.img" class="card-img-top" [alt]="pizza.nombre">
+                    <img [src]="filtros.img" class="card-img-top" [alt]="filtros.nombre">
                     <div class="card-body">
-                        <h5 class="card-title">{{ pizza.nombre }}</h5>
-                        <p class="card-text">{{ pizza.descripcion}}.</p>
-                        <h2>{{ pizza.precio }}</h2>
-                        <span class="badge bg-primary">{{pizza.categoria1}}</span>
-                        <span class="badge bg-primary">{{ pizza.categoria2 }}</span>
-                        <span class="badge bg-primary">{{ pizza.categoria3 }}</span>
+                        <h5 class="card-title">{{ filtros.nombre }}</h5>
+                        <p class="card-text">{{ filtros.descripcion}}.</p>
+                        <h2>{{ filtros.precio }}</h2>
+                        <span class="badge bg-primary" *ngFor="let subform of filtros.categorias">{{ subform }}</span>
                     </div>
                 </div>
             </div>
