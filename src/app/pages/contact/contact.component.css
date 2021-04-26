@@ -111,5 +111,106 @@
 }
 
 }
+.orden {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  justify-content: center;
+
+}
+div .a  {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 80px;
+    color: white;
+  
+
+}
+div .a i {
+    border-radius: 500px;
+    padding: 30px;
+    background-color:  #d8252f;
+    
+
+}
+div .b h3 {
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100PX;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+div .b h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+
+}
+div .col {
+    flex:initial;
+    margin-top: 30px;
+}
+
+div .col h1 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+
+}
+div input {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 3px;
+}
+div input::placeholder {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  div textarea {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+   
+
+  }
+  div textarea::placeholder {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .form button {
+      background-color: #d8252f;
+      border-radius: 0;
+      font-family: 'Merriweather', serif;
+      font-weight: 300;
+      border: #d8252f;
+  }
+  .form button:hover {
+      background-color: black;
+      color: white;
+  }
 
 
+
+
+  @media only screen and (min-width: 768px) {
+    div .col {
+        display: flex;
+        margin-top: 30px;
+    }
+
+}
