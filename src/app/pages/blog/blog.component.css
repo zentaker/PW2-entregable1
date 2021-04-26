@@ -136,7 +136,7 @@
 }
 .blog img {
     
-    width: 983px;
+    width: 55%;
 }
 .blog {
     margin-bottom: 90px;
@@ -261,6 +261,10 @@
     }
     .container {
         margin-top: 60px;
+    }
+    .blog img {
+    
+        width: 76%;
     }
 
 }
