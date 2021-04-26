@@ -341,22 +341,31 @@
             margin-left: 30px;
             font-weight: bold;
             color: white;
-            margin-left: 130px;
+            margin-left: 200px;
             
         }
+        .pizza h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            font-family: 'Oswald', sans-serif;
+            color: #d8252f;
+            
+        }
+        
         .contenido h1 {
-            font-size: 30px;
+            font-size: 120px;
             font-weight: bold;
             color: white;
             background-color: #d8252f;
             padding: 10px 20px 10px 20px;
-            margin-left: 90px;
+            margin-left: 140px;
             text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
             font-family: 'Oswald', sans-serif;
         
         }
         .contenido h2 {
-            font-size: 30px;
+            font-size: 70px;
             font-weight: bold;
             color: white;
             margin-left: 70px;
@@ -365,10 +374,9 @@
         
         }
         .contenido h3 {
-            font-size: 30px;
+            font-size: 40px;
             font-weight: bold;
             color: white;
-            margin-left: 30px;
             text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
             font-family: 'Oswald', sans-serif;
         
@@ -376,10 +384,10 @@
         }
         .contenido h4 {
             position: relative;
-            font-size: 30px;
+            font-size: 40px;
             font-weight: bold;
             color: white;
-            left: 130px;
+            left: 356px;
             text-shadow: rgb(0 0 0 / 80%) 0px 2px 2px;
             font-family: 'Oswald', sans-serif;
         
