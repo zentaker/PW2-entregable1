@@ -45,6 +45,7 @@
     <div class="container pizza">
         <h1>Nuestras Pizzas</h1>
         <div class="categorias">
+            <p>Encuentra tu pizza preferida</p>
             <ul class="">
                 <li><a (click)="catGo('Queso')"><i class="fas fa-cheese"></i>Queso</a></li>
                 <li><a (click)="catGo('Para Niños')"> <i class="fas fa-child"></i>Niños</a></li>
@@ -53,8 +54,12 @@
                 <li><a (click)="catGo('Light')"><i class="fas fa-salad"></i>Light</a></li>
         
             </ul>
+            <div *ngIf="cargando" class="text-center mt-3 animated fadeIn">
+            
+                <p><i class="fa fa-sync fa-spin fa-2x"></i></p>
+            </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 pizzas">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pizzas animated fadeIn fast">
             <div class="col" *ngFor="let filtros of filtro">
                 <div class="card">
                     <img [src]="filtros.img" class="card-img-top" [alt]="filtros.nombre">
@@ -62,7 +67,7 @@
                         <h5 class="card-title">{{ filtros.nombre }}</h5>
                         <p class="card-text">{{ filtros.descripcion}}.</p>
                         <h2>{{ filtros.precio }}</h2>
-                        <span class="badge bg-primary" *ngFor="let subform of filtros.categorias">{{ subform }}</span>
+                        <span class="badge bg-light text-dark" *ngFor="let subform of filtros.categorias">{{ subform }}</span>
                     </div>
                 </div>
             </div>

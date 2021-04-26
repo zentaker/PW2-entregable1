@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { PizzaService } from 'src/app/servicios/pizza.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,7 @@ export class HomeComponent implements OnInit {
   pizzas: any[] = [];
   filtro: any[] = [];
   categoria: any[] = [];
+  cargando = false;
   
 
   constructor(private _pizzaService: PizzaService,
@@ -38,24 +40,38 @@ export class HomeComponent implements OnInit {
     let pizzaArr: any[] = [];
     termino = termino;
     console.log(termino)
-    for (let i = 0; i < this.pizzas.length; i++){
 
-      let pizza = this.pizzas[i];
-      let categorias = pizza.categorias;
+    //this.filtro = []
+    
+
+    this.cargando = true;
+
+    setTimeout(() => {
       
-      for (let i = 0; i < categorias.length; i++) {
-        //console.log(categorias)
-        if ( categorias.indexOf(termino) >= 0) {
-          pizza.idx = i;
+      
+      for (let i = 0; i < this.pizzas.length; i++){
 
-          if (pizza.idx == 0) {
-            pizzaArr.push(pizza);
-            this.filtro = pizzaArr;
-          } 
-        }   
+        let pizza = this.pizzas[i];
+        let categorias = pizza.categorias;
+        
+        for (let i = 0; i < categorias.length; i++) {
+          //console.log(categorias)
+          if ( categorias.indexOf(termino) >= 0) {
+            pizza.idx = i;
+  
+            if (pizza.idx == 0) {
+              pizzaArr.push(pizza);
+              this.filtro = pizzaArr;
+            } 
+          }   
+        }
+        
       }
+
+      this.cargando = false;
       
-    }
+ }, 1000);
+
     
     console.log(pizzaArr)
 
