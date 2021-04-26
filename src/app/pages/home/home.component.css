@@ -206,6 +206,7 @@
   }
 
   @media only screen and (min-width: 900px) {
+
     .pizza h1 {
         text-align: center;
         margin-top:100px;
@@ -332,7 +333,7 @@
          
     .titulo {
         position: absolute;
-        top: 190px;
+        top: 250px;
         
     }
     
