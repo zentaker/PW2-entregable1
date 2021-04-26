@@ -236,7 +236,6 @@
 }
 
 @media only screen and (min-width: 400px) {
-
     .header {
         position: relative;
         top: -200px;
@@ -246,6 +245,22 @@
     }
     .container {
         margin-top: 309px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1000px) { 
+    .header {
+        position: relative;
+        top: -419px;
+    }
+    .title {
+        top: 11PX;
+    }
+    .container {
+        margin-top: 60px;
     }
 
 }
