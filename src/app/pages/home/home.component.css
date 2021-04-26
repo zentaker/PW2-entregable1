@@ -151,3 +151,37 @@
 
 
   }
+
+
+  .categorias ul   {
+      list-style: none;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+      
+   
+  }
+     
+  
+  .categorias ul li {
+      color: #6d6d6d;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px; 
+      display: inline-block;
+      margin-right: 18px;
+
+    
+  }
+  .categorias ul li:hover {
+      color: #b7903c;
+      cursor: pointer;
+  }
+
+  @media (max-width: 700) {
+    .categorias {
+        display: flex;
+        justify-content: center;
+    }
+  }
