@@ -56,7 +56,6 @@ export class PizzaService {
       "descripcion": "Una pizza tradicional francesa para los amantes de la cultura francesa ",
       "categorias": [
         "Queso",
-        "Para Niños",
         "Picante",
   ],
       "img": "assets/pizza5.jpg"
