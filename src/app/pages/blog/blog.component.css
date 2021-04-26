@@ -48,7 +48,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .container p {
         margin-bottom: 10px;
@@ -109,5 +109,57 @@
        
 
 }
+
+}
+.blog h2 {
+    font-family: 'Oswald', sans-serif;
+    
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+@media only screen and (min-width: 768px) { 
+
+.blog h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.blog img {
+    
+    width: 800px;
+}
+.blog {
+    margin-bottom: 90px;
+}
+
+.blog p {
+    
+    font-size: 26px;
+    margin-top: 50px;
+    font-weight: 300;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.blog button:hover {
+
+    background-color:   #d8252f;
+    border: solid 1px #d8252f;
+    -webkit-transition-duration: 1s;
+
+
+}
+
+
+
 
 }

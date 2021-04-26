@@ -111,3 +111,65 @@
 }
 
 }
+
+@media only screen and (min-width: 768px) {
+    .pizza h1 {
+        text-align: center;
+        margin-top:100px;
+        margin-bottom: 78px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        color: #d8252f;
+        
+    }
+    .categorias ul {
+        margin-bottom: 50px;
+    }
+    .categorias p {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 26px;
+        color: #6d6d6d;
+        margin-bottom: 20px;
+
+    }
+    .categorias ul li {
+        color: #6d6d6d;
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px; 
+        display: inline-block;
+        margin-right: 25px;
+  
+      
+    }
+
+  }
+
+  .pizza .card {
+      border: none;
+  }
+  .pizza .card img {
+    border: none;
+    background-color: turquoise;
+    border-radius: 500px;
+}
+.card-body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.card-body h5 {
+    color: #b7903c;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.card-body p {
+    font-size: 18px;
+
+}
+.card-body span {
+    margin-top: 27px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+

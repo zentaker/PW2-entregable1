@@ -9,7 +9,7 @@
         </div>
         <div class="container">
             <div class="container pizza">
-                <h1>Nuestras Pizzas</h1>
+            
                 <div class="row row-cols-1 row-cols-md-3 g-4 pizzas">
                     <div class="col" *ngFor="let pizza of pizzas">
                         <div class="card">
@@ -18,9 +18,7 @@
                                 <h5 class="card-title">{{ pizza.nombre }}</h5>
                                 <p class="card-text">{{ pizza.descripcion}}.</p>
                                 <h2>{{ pizza.precio }}</h2>
-                                <span class="badge bg-primary">{{pizza.categoria1}}</span>
-                                <span class="badge bg-primary">{{ pizza.categoria2 }}</span>
-                                <span class="badge bg-primary">{{ pizza.categoria3 }}</span>
+                                <span class="badge bg-light text-dark" *ngFor="let subform of pizza.categorias">{{ subform }}</span>
                             </div>
                         </div>
                     </div>
