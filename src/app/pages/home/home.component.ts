@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { PizzaService } from 'src/app/servicios/pizza.service';
-import Swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-home',
